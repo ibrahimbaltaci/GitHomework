@@ -3,7 +3,7 @@ import { createServer } from 'node:http';
 
 const server = createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.end('<h1>Common module - Git - Homework</h1>');
+  res.end('<h1>Common module - Git - Homework</h1></br><h2>Feature</h2>');
 });
 
 // starts a simple http server locally on port 3000
